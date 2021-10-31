@@ -2,5 +2,4 @@ login EC2AMAZ-44NU39T -acceptssl
 oa AltoroJ_3.2.war -include_all_lib_jars
 scan AltoroJ_3.2.ozasmt
 report "Findings By Fix Group" pdf-comprehensive report_FP.pdf -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
-pase -aseapplication "SAST Application" 
 quit
