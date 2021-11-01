@@ -16,7 +16,7 @@ steps:
 
 - script: |
     appscansrccli scr cli_script.txt
-  displayName: 'Perform AppScan Source SAST Scan, Generate PDF report, publish to ASE'
+  displayName: 'Perform AppScan Source SAST Scan, Generate PDF report, or publish to ASE'
 
 #- script: |
 #py "C:\appscan-issue-gateway\AIG_Client\AIG_GenericClient.py" localhost 4444 C:\appscan-issue-gateway\AIG_Client\job.json
